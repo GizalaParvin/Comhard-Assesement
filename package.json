@@ -1,0 +1,18 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Task Management Web App with SLA Tracking (React, Vite, Tailwind, Express, MongoDB)",
+  "scripts": {
+    "backend:install": "cd backend && npm install",
+    "frontend:install": "cd frontend && npm install",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:seed": "cd backend && npm run seed",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["task-manager", "sla", "kanban", "react", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
